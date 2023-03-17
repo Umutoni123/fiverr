@@ -1,0 +1,31 @@
+  mySwipper{
+    
+  }
+  .imgslide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 350px; 
+    padding: 30px 50px 30px 50px;
+    
+
+  }
+  .imgslide img{
+    width: 232px;
+    height: 345px;
+    border-radius: 5px;
+  }
+  .imgslide h4{
+    color: red;
+    
+    top: 10%;
+
+  }
+  .myswipe{
+    margin-top: 150px;
+  }
+  .myswipe h1{
+    font-size: 48px;
+    padding: 0px 50px;
+    font-weight: 400;
+  }

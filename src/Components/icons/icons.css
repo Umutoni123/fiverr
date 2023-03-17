@@ -1,0 +1,35 @@
+.iconscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    gap: 70px;
+    height: 400px;
+}
+.inside-icons{
+    width: 200px;
+    align-items: center;
+
+}
+.inside-icons hr{
+    width: 40px;
+    border: 1px solid grey;
+    align-content: center;
+
+}
+.inside-icons hr:hover{
+    width: 100px;
+    border: 1px solid green;
+    align-content: center;
+    padding-left: 7px;
+
+}
+.inside-icons img{
+    width: 48px;
+    height: 48px;
+}
+.iconsfirst{
+    display: flex;
+    justify-content: space-between;
+}
+

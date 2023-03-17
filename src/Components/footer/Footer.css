@@ -1,0 +1,19 @@
+.containerfooter{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+
+}
+.top{
+    display: flex;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+
+}
+.left{
+    display: flex;
+
+}

@@ -1,0 +1,45 @@
+.containersw{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.founder{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: center;
+    
+    font-size: 24px;
+    
+   
+
+    
+}
+.swipetext{
+    font-size: 28px;
+    padding: 10px;
+    color: #003912;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.founder hr{
+    width: 36px;
+}
+.founder img{
+    height: 30px;
+
+}
+
+.founder div h5{
+    border-right: 1px solid grey;
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 5px;
+      
+}
+.imgslide video{
+    border-radius: 5px;
+}
+

@@ -1,0 +1,20 @@
+.trusted{
+    background-color: #FAFAFA;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+}
+.containertrusted{
+    display: flex;
+    width: 760px;
+    align-items: center;
+    gap: 20px;
+    color: lightgrey;
+    font-weight: 500;
+    padding: 0 32px;
+    background: #FAFAFA;
+}
+.containertrusted img{
+    height: 60px;
+
+}

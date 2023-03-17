@@ -1,0 +1,41 @@
+
+.navbar{
+    position: sticky;
+    transition: all easy 5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background: #003E1B;
+    top: 0;
+    z-index: 99;
+
+}
+
+.searchbar{
+    width: 400px;
+    height: 30px;
+    padding-top: 15px;
+    display: flex;
+    
+}
+.searchbar input{
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: white;
+
+}
+.searchbar button{
+    width: 50px;
+    background: #000;
+    height: 40px;
+    border-radius:5px;
+}
+.searchbar button img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    align-items: center;
+}
