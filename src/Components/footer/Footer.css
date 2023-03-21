@@ -1,12 +1,30 @@
 .containerfooter{
     display: flex;
     flex-direction: column;
-    height: 500px;
+ 
     justify-content: center;
-
+    border-top: 2px solid grey;
+    
+    color: grey;
+}
+.containerfooter span:hover{
+    text-decoration: underline;
+}
+.item p{
+    font-size: 16px;
+}
+.item p:hover{
+    text-decoration: underline;
+    color:grey;
 }
 .top{
     display: flex;
+    justify-content: center;
+    gap: 100px;
+
+ 
+    font-size: 22px;
+
 }
 .bottom{
     display: flex;
@@ -15,5 +33,15 @@
 }
 .left{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+.item h2{
+    font-weight: 600;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

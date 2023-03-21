@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import '../swiper2/swipe.css'
+import "../swiper2/swipe.css";
 
 // Import Swiper styles
 import "swiper/css";
@@ -24,33 +24,29 @@ export default function Swipe() {
             <video controls>
               <source src={lavender} type="video/mp4" />
             </video>
-           
           
-              <div className="containersw">
-                <div className="founder">
-                  <div>
-                  <h5>
-                    Tim and Dan JOO, Co-Founder
-                    
-                  </h5>
-                  </div>
-                  
-                  <img src={kim} alt="" />
+          <div>
+            <div className="containersw">
+              <div className="founder">
+                <div>
+                  <h5>Tim and Dan JOO, Co-Founder</h5>
                 </div>
-                <div className="swipetext">
-                  <span>
-                    <i>
-                      It is extremely exciting tha fiver has freelancers from
-                      all over the word - it is broadens the talent pool. One of
-                      the best things about fiverr is that while we're sleeping,
-                      someone's working
-                    </i>
-                  </span>
-                </div>
+
+                <img src={kim} alt="" />
+              </div>
+              <div className="swipetext">
+                <span>
+                  <i>
+                    It is extremely exciting tha fiver has freelancers from all
+                    over the word - it is broadens the talent pool. One of the
+                    best things about fiverr is that while we're sleeping,
+                    someone's working
+                  </i>
+                </span>
               </div>
               </div>
-              
-            
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="imgslide">
@@ -59,32 +55,27 @@ export default function Swipe() {
             </video>
           
           <div>
-              <div className="containersw">
-                <div className="founder">
-                  <div>
-                  <h5>
-                    Tim and Dan JOO, Co-Founder
-                    
-                  </h5>
-                  </div>
-                  
-                  <img src={kim} alt="" />
+            <div className="containersw">
+              <div className="founder">
+                <div>
+                  <h5>Tim and Dan JOO, Co-Founder</h5>
                 </div>
-                <div className="swipetext">
-                  <span>
-                    <i>
-                      It is extremely exciting tha fiver has freelancers from
-                      all over the word - it is broadens the talent pool. One of
-                      the best things about fiverr is that while we're sleeping,
-                      someone's working
-                    </i>
-                  </span>
-                </div>
+
+                <img src={kim} alt="" />
               </div>
+              <div className="swipetext">
+                <span>
+                  <i>
+                    It is extremely exciting tha fiver has freelancers from all
+                    over the word - it is broadens the talent pool. One of the
+                    best things about fiverr is that while we're sleeping,
+                    someone's working
+                  </i>
+                </span>
               </div>
             </div>
-          
-          
+          </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="imgslide">
@@ -95,12 +86,9 @@ export default function Swipe() {
               <div className="containersw">
                 <div className="founder">
                   <div>
-                  <h5>
-                    Tim and Dan JOO, Co-Founder
-                    
-                  </h5>
+                    <h5>Tim and Dan JOO, Co-Founder</h5>
                   </div>
-                  
+
                   <img src={kim} alt="" />
                 </div>
                 <div className="swipetext">
@@ -114,7 +102,6 @@ export default function Swipe() {
                   </span>
                 </div>
               </div>
-              
             </div>
           </div>
         </SwiperSlide>
@@ -127,12 +114,9 @@ export default function Swipe() {
               <div className="containersw">
                 <div className="founder">
                   <div>
-                  <h5>
-                    Tim and Dan JOO, Co-Founder
-                    
-                  </h5>
+                    <h5>Tim and Dan JOO, Co-Founder</h5>
                   </div>
-                  
+
                   <img src={kim} alt="" />
                 </div>
                 <div className="swipetext">
@@ -146,7 +130,6 @@ export default function Swipe() {
                   </span>
                 </div>
               </div>
-              
             </div>
           </div>
         </SwiperSlide>

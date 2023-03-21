@@ -8,6 +8,7 @@ import Freelancer from './Components/freelancer/Freelancer';
 import Business from './Components/fiverbusiness/Business'
 import Swipping2 from './Components/swiper2/Swipping2';
 import Icons from './Components/icons/Icons';
+import Logobanner from './Components/logobanner/Logobanner';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Icons/>
     <Business/>
     <Swipping2/>
+    <Logobanner/>
     <Footer/>
     </div>
   );
