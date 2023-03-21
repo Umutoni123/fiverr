@@ -24,8 +24,8 @@ export default function Swipe() {
             <video controls>
               <source src={lavender} type="video/mp4" />
             </video>
-          </div>
-          <div>
+           
+          
               <div className="containersw">
                 <div className="founder">
                   <div>
@@ -48,15 +48,16 @@ export default function Swipe() {
                   </span>
                 </div>
               </div>
+              </div>
               
-            </div>
+            
         </SwiperSlide>
         <SwiperSlide>
           <div className="imgslide">
             <video controls>
               <source src={dan} type="video/mp4" />
             </video>
-          </div>
+          
           <div>
               <div className="containersw">
                 <div className="founder">
@@ -80,7 +81,7 @@ export default function Swipe() {
                   </span>
                 </div>
               </div>
-              
+              </div>
             </div>
           
           
